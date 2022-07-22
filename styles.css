@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Kumbh Sans;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100vh;
+    background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat:  no-repeat;
+    background-position: -40% 250%, 130% -220%;
+    background-size: 800px;
+}
+
+.container{
+    height: 370px;
+    width: 350px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.grp{
+    position: relative;
+    bottom: 1px;
+}
+
+.name{
+    position: relative;
+    bottom: 50px;
+}
+
+p{
+    position: relative;
+    bottom: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    color: hsl(185, 75%, 39%);
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 50px;
+}
+
+span{
+    font-weight: 400;
+    font-size: 17px;
+    color: hsl(0, 0%, 50%);
+
+}
+
+h2,h1{
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+.card{
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.victor{
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+}
+
+hr{
+    border-top: 0.5px solid rgb(230, 229, 229);
+    position: relative;
+    bottom: 10px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: rgb(62, 82, 163); 
+}
